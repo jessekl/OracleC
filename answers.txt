@@ -1,0 +1,18 @@
+
+(a) How many commits have been done to the repository by the end of step 11? (5 points)
+3
+(b) When was the file .gitignore modified last? (5 points)
+5 months
+(c) List the files, which were in the repository on 08/21/2015 at 11:00PM. (5 points)
+none cause they were commited on aug 24
+(d) How many times was each of the files inside the src folder modified? (5 points)
+5
+(e) What is the difference between git log and git status? (5 points)
+git log shows a log of activity for pushes and git status shows the current status tracking activity of the directory files 
+(f) What command would you use to see the commits where “main.java” was one of the commited files? (5 points)
+git log --follow main.java
+(g) What command would you use to see the commits whose commit message contains the word “transaction”? (5 points)
+git log --grep=transaction
+(h) What command would you use to see the commits made by “Lauren” between 01/05/2016 and 02/16/2016? (5 points)
+git log --author="Lauren"
+git log --after="2016-05-01" --before="2016-16-2"
