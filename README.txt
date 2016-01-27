@@ -1,3 +1,7 @@
+Name: Jesse Lurie
+CS username: luire
+FSUID: jkl13e
+
 Welcome.
 
 You have sucessfully obtained a copy of the contents in the oracle repository.
