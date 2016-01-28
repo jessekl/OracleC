@@ -1,2 +1,5 @@
 Florida State University
 600 W. College Avenue, Tallahassee, FL 32306
+woodtype: Cherry	bf: 500	price: 1.5
+woodtype: Wenge	bf: 520	price: 1.5
+1020
