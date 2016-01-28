@@ -9,19 +9,17 @@
 /*
  * Empty constructor
  */
+ using namespace std;
+
 WoodItem::WoodItem() {
 	type = "";
 	baseDeliveryTime = 0.0;
 	price = 0.0;
 }
 
-/*
- * Method to initialize a tic tac toe game
- * Initializes board and turn
- */
-WoodItem::WoodItem(std::string woodType, double deliveryTime, double itemPrice) {
+
+WoodItem::WoodItem(string woodType, double deliveryTime, double itemPrice) {
 	type = woodType;
 	baseDeliveryTime = deliveryTime;
 	price = itemPrice;
 }
-

@@ -13,19 +13,21 @@
 
 #ifndef WOODITEM_H_
 #define WOODITEM_H_
-
+using namespace std;
 class WoodItem {
 
 public:
 
-	std::string type;
+	string type;
 	double baseDeliveryTime;
 	double price;
+	double deliveryTime;
 
 	// Member functions declaration
 	WoodItem();
-	WoodItem(std::string woodType, double deliveryTime, double itemPrice);
-
+	WoodItem(string woodType, double deliveryTime, double itemPrice);
+	double getDeliveryTime();
 };
 
-#endif /* WOODITEM_H_ */
+#endif 
+/* WOODITEM_H_ */
